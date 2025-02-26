@@ -24,7 +24,28 @@ This repository contains simple yet functional Spring Boot projects to demonstra
 📂 **Tech Stack:**  
 - Java + Spring Boot  
 - Thymeleaf  
-- Spring MVC  
+- Spring MVC
+
+### 3️⃣ **Spring Boot Employee API (REST CRUD)**
+🔹 Una API REST para la gestión de empleados usando **Spring Boot, JPA y H2 Database**.  
+🔹 Implementa **operaciones CRUD** con un controlador REST y un repositorio JPA.  
+🔹 Maneja respuestas HTTP adecuadas utilizando `ResponseEntity`.  
+🔹 Usa **Spring Boot DevTools** para recarga automática en desarrollo.  
+
+📂 **Tech Stack:**  
+- Java + Spring Boot  
+- Spring Web  
+- Spring Data JPA  
+- H2 Database  
+- Spring Boot DevTools  
+
+📌 **Endpoints principales:**  
+- **GET** `/empleados` → Lista todos los empleados.  
+- **GET** `/empleados/{id}` → Obtiene un empleado por ID.  
+- **POST** `/empleados` → Crea un nuevo empleado.  
+- **PUT** `/empleados/{id}` → Actualiza un empleado existente.  
+- **DELETE** `/empleados/{id}` → Elimina un empleado.  
+
 
 ## 🚀 How to Run  
 Make sure you have **Java 17+** and **Maven** installed.  
